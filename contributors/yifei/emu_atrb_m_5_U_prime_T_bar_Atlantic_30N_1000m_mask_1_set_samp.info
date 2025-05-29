@@ -1,0 +1,30 @@
+***********************
+Output of set_samp.f
+Sampling objective function (OBJF) specification
+***********************
+
+
+   fmd = m
+   ==> Sampling MONTHLY means ... 
+
+------------------
+OBJF variable #  1
+   iobjf =  5
+    --> OBJF variable : UV (m/s)
+
+   ifunc =  2
+    --> OBJF is a linear function of selected variable(s)
+    --> i.e., MULT * SUM( MASK_W*UVEL + MASK_S*VVEL )
+
+   ifunc2 =  2
+    --> Reading MASK_W & MASK_S from user files.
+
+   fmask_W = U_prime_T_bar_Atlantic_30N_1000m_mask
+    --> MASK_W file for UVEL. 
+
+   fmask_S = V_prime_T_bar_Atlantic_30N_1000m_mask
+    --> MASK_S file for VVEL. 
+
+   amult =   1.0000E+00
+    --> OBJF Scaling factor. 
+
