@@ -10,7 +10,7 @@ Provide a brief introduction describing the proposed work. Be sure to also decri
 | ------------- | ------------- | ------------- | ------------- |
 | Clark Z | I want to learn about the ECCO tools, using GitHub, and improve my Python skills | I can help with understanding the science behind AMOC | Project Lead |
 | Yifei F | I want to learn what state estimate is and all potential applications of ECCO | I can help with Python and provide atmospheric science perspective | Project Lead |
-| Tanvir S | |  | Project Lead |
+| Tanvir S | I want to learn about ECCO State estimate and EMU tools | I can help with adjoint based sensitivity analysis of AMOC | Project Lead |
 | ... | ... | ... | ... |
 
 ### The problem
