@@ -15,7 +15,7 @@ Provide a brief introduction describing the proposed work. Be sure to also decri
 
 ### The problem
  
-
+What controls MHT and AMOC variability over the past 3 decades?
 
 ## Data and Methods
 
@@ -24,13 +24,12 @@ ECCOv4r5.
 
 ### Existing methods
 
-How would you or others traditionally try to address this problem? Provide any relevant citations to prior work.
+Traditionally this is done with statistical techniques, linear inverse models, analyzing global climate models, and/or general circulation models
 
 ### Proposed methods/tools
 
-What new approaches would you like to implement for addressing your specific question(s) or application(s)?
-
-Will your project use machine learning methods? If so, we invite you to create a [model card](model-card.md)!
+We will use the EMU Adjoint gradient tool, attribution tool, and convolution tool.
+We will also develop a python scirpt that allows us to easily calculate the AMOC in density space
 
 ### Additional resources or background reading
 
@@ -42,7 +41,7 @@ Optional: links to manuscripts or technical documents providing background infor
 
 List the specific project goals or research questions you want to answer. Think about what outcomes or deliverables you'd like to create (e.g. a series of tutorial notebooks demonstrating how to work with a dataset, results of an anaysis to answer a science question, an example of applying a new analysis method, or a new python package).
 
-* Goal 1
+* Calculate MOC in density coordinates
 * Goal 2
 * ...
 
